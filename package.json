@@ -1,0 +1,36 @@
+{
+  "name": "egg-swagger-view",
+  "version": "0.1.0",
+  "description": "swagger ui for egg.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dobility/egg-swagger-view.git"
+  },
+  "keywords": [
+    "egg",
+    "egg-plugin",
+    "swagger",
+    "swagger-ui",
+    "swaggerUi"
+  ],
+  "eggPlugin": {
+    "name": "swaggerUi"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "files": [
+    "app",
+    "view",
+    "config",
+    "app.js",
+    "index.js"
+  ],
+  "author": "Dobility",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dobility/egg-swagger-view/issues"
+  },
+  "homepage": "https://github.com/Dobility/egg-swagger-view#readme"
+}

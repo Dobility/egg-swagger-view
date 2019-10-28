@@ -1,0 +1,1 @@
+window.swaggerPath = '/docs/swagger.json'
