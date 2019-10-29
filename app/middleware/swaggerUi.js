@@ -13,7 +13,7 @@ module.exports = (options, app) => {
     path.join(__dirname, '../../view/swagger-path.js'),
     `window.swaggerPath = '${swaggerPath}'`
   )
-  return (ctx, next) => {
-    next()
+  return async (ctx, next) => {
+    await next()
   }
 }
