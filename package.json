@@ -1,6 +1,6 @@
 {
   "name": "egg-swagger-view",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "swagger ui for egg.js",
   "main": "index.js",
   "repository": {

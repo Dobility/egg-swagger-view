@@ -35,9 +35,11 @@
       if (window.SwaggerTranslator) {
         window.SwaggerTranslator.translate();
       }
+      var url =  window.swaggerPath || '/docs/swagger.json';
+      url = location.origin + location.pathname.replace('swagger.html', url).replace(/\/\//g, '\/');
       window.swaggerUi = new SwaggerUi(
         {
-          url: window.swaggerPath || '/docs/swagger.json',
+          url: url,
           validatorUrl: null,
           dom_id: "swagger-ui-container",
           supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
